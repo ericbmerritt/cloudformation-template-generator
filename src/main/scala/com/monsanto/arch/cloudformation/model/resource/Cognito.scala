@@ -2,7 +2,6 @@ package com.monsanto.arch.cloudformation.model.resource
 
 import com.monsanto.arch.cloudformation.model.{ConditionRef, Token}
 import spray.json.DefaultJsonProtocol._
-
 import spray.json.{
   DefaultJsonProtocol,
   JsObject,
