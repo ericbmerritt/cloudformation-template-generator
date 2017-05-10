@@ -135,7 +135,7 @@ case class `AWS::ApiGateway::Method`(
                                       name: String,
                                       ApiKeyRequired: Option[Boolean] = None,
                                       AuthorizationType: String,
-                                      AuthorizerId: Option[String] = None,
+                                      AuthorizerId: Option[Token[String]] = None,
                                       HttpMethod: String,
                                       Integration: Option[Integration] = None,
                                       MethodResponses: Option[Seq[MethodResponse]] = None,
